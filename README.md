@@ -30,5 +30,8 @@ python3 -m http.server 8747
 
 - **Proof metrics** (1,200+ events, 98% leftovers, 4.9★) are illustrative — swap for verified numbers.
 - **Testimonials** are sample copy — replace with real client reviews.
-- **Cuisine cards** use gradient placeholders — replace with Chef Alex's real food/event photography.
+- **Photography** in `/images` is licensed stock (Pexels, free for commercial use, no
+  attribution required) chosen to match Chef Alex's catering style — hero buffet spread
+  plus Mediterranean, Caribbean, Southern, and global-fusion plates. Replace with Chef
+  Alex's own food/event photography when available.
 - **Quote form** is a demo stub — wire to GHL or email before going live.

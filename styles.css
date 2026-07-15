@@ -91,13 +91,13 @@ em { font-style: italic; }
 .hero__bg {
   position: absolute; inset: 0; z-index: 0;
   background:
-    radial-gradient(1200px 600px at 80% -10%, rgba(217, 154, 58, .35), transparent 60%),
-    radial-gradient(900px 500px at 0% 110%, rgba(198, 91, 59, .5), transparent 55%),
-    linear-gradient(160deg, var(--burgundy-deep) 0%, var(--burgundy) 55%, var(--terracotta-dark) 100%);
+    linear-gradient(160deg, rgba(74, 22, 34, .90) 0%, rgba(110, 34, 51, .80) 42%, rgba(168, 70, 43, .70) 100%),
+    radial-gradient(1100px 600px at 82% -10%, rgba(217, 154, 58, .30), transparent 60%),
+    url("images/hero.jpg") center/cover no-repeat;
 }
 .hero__bg::after {
   content: ""; position: absolute; inset: 0;
-  background-image: radial-gradient(rgba(255,255,255,.06) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255,255,255,.05) 1px, transparent 1px);
   background-size: 22px 22px; opacity: .5;
 }
 .hero__inner { position: relative; z-index: 1; padding: 90px 24px 96px; max-width: 900px; }
@@ -176,11 +176,11 @@ em { font-style: italic; }
 .menu__grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 22px; margin-top: 42px; }
 .dish { background: var(--paper); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--cream-2); box-shadow: var(--shadow-sm); transition: transform .2s ease; }
 .dish:hover { transform: translateY(-4px); }
-.dish__img { height: 150px; background-size: cover; background-position: center; }
-.dish__img--1 { background: linear-gradient(135deg, #e8c07a, #c65b3b); }
-.dish__img--2 { background: linear-gradient(135deg, #7bb661, #3d5641); }
-.dish__img--3 { background: linear-gradient(135deg, #d99a3a, #a8462b); }
-.dish__img--4 { background: linear-gradient(135deg, #b0728f, #6e2233); }
+.dish__img { height: 180px; background-size: cover; background-position: center; background-color: var(--cream-2); }
+.dish__img--1 { background-image: url("images/mediterranean.jpg"); }
+.dish__img--2 { background-image: url("images/caribbean.jpg"); }
+.dish__img--3 { background-image: url("images/southern.jpg"); }
+.dish__img--4 { background-image: url("images/fusion.jpg"); }
 .dish h3 { font-size: 1.15rem; margin: 20px 22px 8px; color: var(--burgundy); }
 .dish p { font-size: .92rem; color: var(--ink-soft); margin: 0 22px 24px; }
 
